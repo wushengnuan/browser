@@ -4,7 +4,7 @@
 
 
     <!-- App -->
-    <string name="app_name">FOSS Browser</string>
+    <string name="app_name">Browser</string>
     <string name="app_ok">OK</string>
     <string name="app_cancel">Cancel</string>
     <string name="list_empty">Current list is empty</string>
@@ -12,7 +12,6 @@
     <string name="album_title_history">History</string>
     <string name="album_title_home">Home</string>
     <string name="album_title_files">Files</string>
-    <string name="album_untitled"> </string>
     <string name="notification_content_holderTitle">Opened tabs …</string>
     <string name="notification_content_holder">… Click to View Pages</string>
     <string name="search_hint">Search</string>
@@ -75,7 +74,6 @@
     <string name="dialog_sign_in_password">Password</string>
     <string name="dialog_button_custom">Custom</string>
     <string name="dialog_title_download">Do you want to download the file?</string>
-    <string name="dialog_title_sign_in">Sign in</string>
     <string name="dialog_content_resubmission">Would you like to resubmit your data?</string>
     <string name="dialog_content_ssl_error">The certificate of the site is not trusted. Proceed anyway?</string>
 
@@ -159,7 +157,7 @@
         old one. To restore there must be a file with the right name in the directory.</string>
     <string name="clear_menu_done_all">Done all</string>
     <string name="clear_title_quit">Clear when application exits</string>
-    <string name="clear_summary_quit">Every time you quit \"FOSS Browser\" all above checked data will be deleted.</string>
+    <string name="clear_summary_quit">Every time you quit \"Browser\" all above checked data will be deleted.</string>
     <string name="clear_title_cache">Clear Cache</string>
     <string name="clear_title_cookie">Clear Cookies</string>
     <string name="clear_title_history">Clear History</string>
@@ -231,9 +229,6 @@
     <string name="setting_overView_hide_summary">In expanded overview the tab preview will hide. Then you have more place for your
     bookmarks.</string>
 
-    <string name="setting_overView_place_title">Only tab preview</string>
-    <string name="setting_overView_place_summary">Only show the tab preview when extending overview to switch tabs more comfortable.</string>
-
     <string name="setting_gestures">Gestures</string>
     <string name="setting_gestures_use_title">Use gestures</string>
     <string name="setting_gestures_use_summary">Use gestures on the toolbar and the \"Navigation button\".</string>
@@ -259,7 +254,6 @@
     <string name="setting_gesture_10">Close tab</string>
 
     <!-- Data -->
-    <string name="export_bookmarks">export_bookmarks</string>
 
     <string name="setting_title_export_whitelist">Export AdBlock whitelist</string>
     <string name="setting_title_import_whitelist">Import AdBlock whitelist</string>
@@ -284,9 +278,9 @@
     <!-- Others setting -->
     <string name="setting_title_others">Others</string>
     <string name="setting_title_license">License</string>
-    <string name="setting_summary_license">\"FOSS Browser\" is completely free (as in freedom) and open source.</string>
+    <string name="setting_summary_license">\"Browser\" is completely free (as in freedom) and open source.</string>
     <string name="setting_title_appSettings">App settings</string>
-    <string name="setting_summary_appSettings">Open the system app settings for \"FOSS Browser\". There you can,
+    <string name="setting_summary_appSettings">Open the system app settings for \"Browser\". There you can,
         depending on your Android version grant permissions, clear the app data and so on.</string>
     <string name="setting_title_community">Contributing</string>
     <string name="setting_summary_community">See who contributed something to this project. Or do you want to help with further
@@ -322,12 +316,12 @@
     <string name="toast_edit_successful">Successfully saved</string>
     <string name="toast_webview_forward">Can\'t load next site</string>
     <string name="toast_clear">Do you really want to clear?</string>
-    <string name="toast_permission_sdCard">\"FOSS Browser\" needs the permission to \"read and write on your storage\". This
+    <string name="toast_permission_sdCard">\"Browser\" needs the permission to \"read and write on your storage\". This
         is needed to download files, taking screenshots and making backups of your data.</string>
-    <string name="toast_permission_loc">\"FOSS Browser\" needs the permission to \"access your location\". This is requested from some
+    <string name="toast_permission_loc">\"Browser\" needs the permission to \"access your location\". This is requested from some
         websites for example when they offer some kind of navigation.</string>
-    <string name="toast_restart">You must restart \"FOSS Browser\" to apply changes. Close now?</string>
-    <string name="toast_quit">Do you want to quit \"FOSS Browser\"?</string>
+    <string name="toast_restart">You must restart \"Browser\" to apply changes. Close now?</string>
+    <string name="toast_quit">Do you want to quit \"Browser\"?</string>
     <string name="toast_close_tab">Do you want to close current tab?</string>
     <string name="toast_closeNotification">Close all opened websites.</string>
     <string name="toast_downloadComplete">Download complete. Open file manager?</string>
@@ -349,7 +343,7 @@
     <string name="dialogHelp_tipTitle">Tips</string>
     <string name="dialogHelp_tipText">
         &lt;b>Favorite&lt;/b>&lt;br>
-        You can decide which site loads when \"FOSS Browser\" starts: By long pressing an entry in the
+        You can decide which site loads when \"Browser\" starts: By long pressing an entry in the
         overview (Startsite, Bookmarks, History) you can choose it. Over the menu of the overview you can also set
         a blank favorite.&lt;br>&lt;br>
 
@@ -403,178 +397,13 @@
     <!-- Dialog changelog -->
 
     <string name="changelog_title">Changelog</string>
-    <string name="changelog_dialog">
-
-        Your language isn\'t supported yet? You want to translate FOSS Browser? Or make improvements to existing translations?
-        Feel free to join us on Crowdin: https://crowdin.com/project/foss-browser.&lt;br&gt;&lt;br&gt;
-
-        &lt;b>On the following sites you have access to all important information about \"FOSS Browser\".
-        Please read also the help dialog within the app.&lt;/b>&lt;br>&lt;br>
-
-        \u25AA &lt;i>Project site:&lt;/i> https://github.com/scoute-dich/Browser&lt;br>
-        \u25AA &lt;i>Changelog:&lt;/i> https://github.com/scoute-dich/browser/blob/master/CHANGELOG.md&lt;br>
-        \u25AA &lt;i>FAQ:&lt;/i> https://github.com/scoute-dich/browser/blob/master/FAQs.md&lt;br>
-        \u25AA &lt;i>License:&lt;/i> https://github.com/scoute-dich/browser/blob/master/LICENSE.md&lt;br>
-        \u25AA &lt;i>Privacy:&lt;/i> https://github.com/scoute-dich/browser/blob/master/PRIVACY.md
-
-    </string>
+    <string name="changelog_dialog2">..</string>
 
 
     <!-- License changelog -->
 
     <string name="license_title">Copyright © 2017  by Gaukler Faun</string>
-    <string name="license_dialog">
-        &lt;i>For more information visit the project site on Github: https://github.com/scoute-dich/Browser&lt;/i>&lt;br>&lt;br>
-
-        This program is free software: you can redistribute it and/or modify
-        it under the terms of the GNU General Public License as published by
-        the Free Software Foundation, either version 3 of the License, or
-        (at your option) any later version.
-
-        This program is distributed in the hope that it will be useful,
-        but WITHOUT ANY WARRANTY; without even the implied warranty of
-        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-        GNU General Public License for more details.
-
-        You should have received a copy of the GNU General Public License
-        along with this program.  If not, see http://www.gnu.org/licenses.&lt;br>&lt;br>
-
-        &lt;i>Following open source libraries or projects are used within this software:&lt;/i>&lt;br>&lt;br>&lt;br>
-
-        &lt;b>Material Design Icons&lt;/b>&lt;br>
-        SIL Open Font License, Version 1.1.&lt;br>
-        Templarian&lt;br>
-        &lt;i>https://github.com/Templarian/MaterialDesign&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>Ninja&lt;/b>&lt;br>
-        Apache License Version 2.0&lt;br>
-        Matthew Lee&lt;br>
-        &lt;i>http://git.io/vUrEh&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>SimpleEncryptionLib&lt;/b>&lt;br>
-        Apache License Version 2.0&lt;br>
-        hummatli&lt;br>
-        &lt;i>https://github.com/hummatli/SimpleEncryptionLib</string>
-
-    <string name="cont_dialog">
-        &lt;i>First I would like to thank all people who contributed in any way on this project. They submitted issues,
-        translated or helped in any other way. On following sites you can become a active member of this
-        great community:&lt;/i>&lt;br>&lt;br>
-
-        &lt;b&gt;Crowdin:&lt;/b&gt;&lt;br&gt;
-        Crowdin is an online plattform to translate applications in other languages. A big thanks to all translators. You can
-        also help.&lt;br&gt;
-        &lt;i&gt;https://crowdin.com/project/foss-browser&lt;/i&gt;&lt;br&gt;&lt;br&gt;
-
-
-        &lt;b>XDA-thread:&lt;/b>&lt;br>
-        XDA is a great community for developers and smartphone enthusiasts. Here you can report issues, ask for new features
-        and everything other related to \"FOSS Browser\".&lt;br>
-        &lt;i>https://forum.xda-developers.com/android/apps-games/app-browser-t3500091&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>Github:&lt;/b>&lt;br>
-        On Github you can see the source code of \"FOSS Browser\". This is the more technical solution: open issues, ask for new
-        features or even help developing or translating.&lt;br>
-        &lt;i>https://github.com/scoute-dich/browser&lt;/i>&lt;br>&lt;br>&lt;br>
-
-
-        &lt;i>Following people contributed at this project. If I have forgotten anybody, please contact me:&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>Gaukler Faun&lt;/b>&lt;br>
-        \u25AA Main developer and initiator of this project&lt;br>
-        &lt;i>https://github.com/scoute-dich&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>Ali Demirtas&lt;/b>&lt;br>
-        \u25AA Turkish Translation&lt;br>
-        &lt;i>https://github.com/ali-demirtas&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>CGSLURP LLC&lt;/b>&lt;br>
-        \u25AA Helped to implement AdBlock and \"request desktop site\" in the previous version of \"FOSS Browser\".&lt;br>
-        &lt;i>https://github.com/futrDevelopment&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>element54&lt;/b>&lt;br>
-        \u25AA fix: keyboard problems (issue #105)&lt;br>
-        \u25AA new: option to disable confirmation dialogs on exit&lt;br>
-        &lt;i>https://github.com/element54&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>elmru&lt;/b>&lt;br>
-        \u25AA Taiwan Trad. Chinese Translation&lt;br>
-        &lt;i>https://github.com/kogiokka&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>Enrico Monese&lt;/b>&lt;br>
-        \u25AA Italian Translation&lt;br>
-        &lt;i>https://github.com/EnricoMonese&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>Francois&lt;/b>&lt;br>
-        \u25AA French Translation&lt;br>
-        &lt;i>https://github.com/franco27&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>gh-pmjm&lt;/b>&lt;br>
-        \u25AA Polish translation&lt;br>
-        &lt;i>https://github.com/gh-pmjm&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>gr1sh&lt;/b>&lt;br>
-        \u25AA fix: some German strings (issues #124, #131)&lt;br>
-        &lt;i>https://github.com/gr1sh&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>Harry Heights&lt;/b>&lt;br>
-        \u25AA Documentation of FOSS Browser&lt;br>
-        &lt;i>https://github.com/HarryHeights&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>Heimen Stoffels&lt;/b>&lt;br>
-        \u25AA Dutch translation&lt;br>
-        &lt;i>https://github.com/Vistaus&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>Hellohat&lt;/b>&lt;br>
-        \u25AA French translation&lt;br>
-        &lt;i>https://github.com/Hellohat&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>Herman Nunez&lt;/b>&lt;br>
-        \u25AA Spanish translation&lt;br>
-        &lt;i>https://github.com/junior012&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>Jumping Yang&lt;/b>&lt;br>
-        \u25AA Chinese translation in the previous version of \"FOSS Browser\"&lt;br>
-        &lt;i>https://github.com/JumpingYang001&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>lishoujun&lt;/b>&lt;br>
-        \u25AA Chinese translation&lt;br>
-        \u25AA bug hunting&lt;br>
-        &lt;i>https://github.com/lishoujun&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>Peter Bui&lt;/b>&lt;br>
-        \u25AA more font sizes to choose&lt;br>
-        &lt;i>https://github.com/pbui&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>Secangkir Kopi&lt;/b>&lt;br>
-        \u25AA Indonesian translation&lt;br>
-        &lt;i>https://github.com/Secangkir-Kopi&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>Sérgio Marques&lt;/b>&lt;br>
-        \u25AA Portuguese translation&lt;br>
-        &lt;i>https://github.com/smarquespt&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>splinet&lt;/b>&lt;br>
-        \u25AA Russian translation in the previous version of \"FOSS Browser\"&lt;br>
-        &lt;i>https://github.com/splinet&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>SkewedZeppelin&lt;/b>&lt;br>
-        \u25AA Add option to enable Save-Data header&lt;br>
-        &lt;i>https://github.com/SkewedZeppelin&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>Tobiplayer3&lt;/b>&lt;br>
-        \u25AA added Qwant search engine&lt;br>
-        \u25AA option to open new tab instead of exiting app&lt;br>
-        &lt;i>https://github.com/Tobiplayer3&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>Vladimir Kosolapov&lt;/b>&lt;br>
-        \u25AA Russian translation&lt;br>
-        &lt;i>https://github.com/0x264f&lt;/i>&lt;br>&lt;br>
-
-        &lt;b>YC L&lt;/b>&lt;br>
-        \u25AA Chinese Translation&lt;br>
-        &lt;i>https://github.com/smallg0at&lt;/i>
-
-    </string>
+    <string name="license_dialog2">..</string>
+    <string name="cont_dialog2">..</string>
 
 </resources>

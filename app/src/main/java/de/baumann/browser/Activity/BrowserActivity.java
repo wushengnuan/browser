@@ -133,6 +133,8 @@ import static android.content.ContentValues.TAG;
 @SuppressWarnings({"ResultOfMethodCallIgnored", "FieldCanBeLocal", "ApplySharedPref"})
 public class BrowserActivity extends AppCompatActivity implements BrowserController, View.OnClickListener {
 
+//    String favoriteURL = "https://www.google.com";
+    String favoriteURL = "https://www.baidu.com";
     // Menus
 
     private LinearLayout menu_tabPreview;
@@ -752,18 +754,18 @@ public class BrowserActivity extends AppCompatActivity implements BrowserControl
             case R.id.tab_plus:
                 hideBottomSheetDialog();
                 hideOverview();
-                addAlbum(getString(R.string.app_name), sp.getString("favoriteURL", "https://github.com/scoute-dich/browser"), true);
+                addAlbum(getString(R.string.app_name), sp.getString("favoriteURL", favoriteURL), true);
                 break;
             case R.id.tab_plus_bottom:
                 hideBottomSheetDialog();
                 hideOverview();
-                addAlbum(getString(R.string.app_name), sp.getString("favoriteURL", "https://github.com/scoute-dich/browser"), true);
+                addAlbum(getString(R.string.app_name), sp.getString("favoriteURL", favoriteURL), true);
                 break;
 
             case R.id.menu_newTabOpen:
                 hideBottomSheetDialog();
                 hideOverview();
-                addAlbum(getString(R.string.app_name), sp.getString("favoriteURL", "https://github.com/scoute-dich/browser"), true);
+                addAlbum(getString(R.string.app_name), sp.getString("favoriteURL", favoriteURL), true);
                 break;
 
             case R.id.menu_closeTab:
@@ -1343,7 +1345,7 @@ public class BrowserActivity extends AppCompatActivity implements BrowserControl
                 showOverview();
                 break;
             case "09":
-                addAlbum(getString(R.string.app_name), sp.getString("favoriteURL", "https://github.com/scoute-dich/browser"), true);
+                addAlbum(getString(R.string.app_name), sp.getString("favoriteURL", favoriteURL), true);
                 break;
             case "10":
                 removeAlbum(currentAlbumController);
@@ -2308,7 +2310,7 @@ public class BrowserActivity extends AppCompatActivity implements BrowserControl
         }
 
         if (BrowserContainer.size() < 1 && url == null) {
-            addAlbum("", sp.getString("favoriteURL", "https://github.com/scoute-dich/browser"), true);
+            addAlbum("", sp.getString("favoriteURL", favoriteURL), true);
             if (android.os.Build.VERSION.SDK_INT < 28) {
                 new Handler().postDelayed(new Runnable() {
                     @Override
@@ -2390,7 +2392,7 @@ public class BrowserActivity extends AppCompatActivity implements BrowserControl
             if(!sp.getBoolean("sp_reopenLastTab", false)) {
                 doubleTapsQuit();
             }else{
-                updateAlbum(sp.getString("favoriteURL", "https://github.com/scoute-dich/browser"));
+                updateAlbum(sp.getString("favoriteURL", favoriteURL));
                 hideOverview();
             }
         } else {
@@ -2997,7 +2999,7 @@ public class BrowserActivity extends AppCompatActivity implements BrowserControl
             @Override
             public void onClick(View v) {
                 hideBottomSheetDialog ();
-                updateAlbum(sp.getString("favoriteURL", "https://github.com/scoute-dich/browser"));
+                updateAlbum(sp.getString("favoriteURL", favoriteURL));
             }
         });
         menu_sc = dialogView.findViewById(R.id.menu_sc);

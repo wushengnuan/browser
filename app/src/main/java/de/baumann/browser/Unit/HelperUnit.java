@@ -284,7 +284,7 @@ public class HelperUnit {
         dialog_title.setText(R.string.changelog_title);
 
         TextView dialog_text = dialogView.findViewById(R.id.dialog_text);
-        dialog_text.setText(HelperUnit.textSpannable(context.getString(R.string.changelog_dialog)));
+        dialog_text.setText(HelperUnit.textSpannable(context.getString(R.string.changelog_dialog2)));
         dialog_text.setMovementMethod(LinkMovementMethod.getInstance());
 
         ImageButton fab = dialogView.findViewById(R.id.floatButton_ok);

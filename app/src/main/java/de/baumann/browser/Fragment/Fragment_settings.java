@@ -60,10 +60,10 @@ public class Fragment_settings extends PreferenceFragment {
                 getActivity().startActivity(clearControl);
                 break;
             case R.string.setting_title_license:
-                showLicenseDialog(getString(R.string.license_title), getString(R.string.license_dialog));
+                showLicenseDialog(getString(R.string.license_title), getString(R.string.license_dialog2));
                 break;
             case R.string.setting_title_community:
-                showLicenseDialog(getString(R.string.setting_title_community), getString(R.string.cont_dialog));
+                showLicenseDialog(getString(R.string.setting_title_community), getString(R.string.cont_dialog2));
                 break;
             case R.string.changelog_title:
                 HelperUnit.show_dialogChangelog(getActivity());
